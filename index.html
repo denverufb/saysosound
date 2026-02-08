@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Say So Sound</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #132732;
+      color: #e5e5dd;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: black;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      color: #e5e5dd;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      padding: 80px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e5e5dd;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .service-box {
+      background-color: black;
+      padding: 25px;
+      border-radius: 4px;
+    }
+
+    .service-box h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .service-box p {
+      font-size: 15px;
+    }
+
+    .about p {
+      max-width: 800px;
+      font-size: 16px;
+    }
+
+    .contact {
+      background-color: black;
+      padding: 50px 40px;
+      margin-top: 60px;
+    }
+
+    .contact h2 {
+      border-bottom: none;
+    }
+
+    .contact p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      background-color: black;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="logo.png" alt="Say So Sound Logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#artists">Artists</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Say So Sound</h1>
+    <p>
+      A youth-directed music label operating under Say So Entertainment, LLC.
+      We develop, distribute, and market the next generation of artists while
+      maintaining professional industry standards.
+    </p>
+  </div>
+
+  <section id="about" class="about">
+    <h2>About the Label</h2>
+    <p>
+      Say So Sound represents artists under the age of 18 and provides structured
+      access to artist development, digital distribution, and brand growth.
+      Our mission is to prepare young artists for real careers in the music
+      industry while protecting their creative ownership and long-term vision.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>What We Do</h2>
+
+    <div class="services">
+      <div class="service-box">
+        <h3>Artist Development</h3>
+        <p>
+          Hands-on experience with professional producers, engineers, and
+          creatives to help artists refine their sound and understand the
+          music business.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <h3>Distribution</h3>
+        <p>
+          Music released through Say So Sound is distributed to all major
+          platforms including Spotify, Apple Music, TIDAL, YouTube Music,
+          and social platforms.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <h3>Marketing</h3>
+        <p>
+          Strategic marketing support focused on brand building, audience
+          engagement, and release promotion using industry-tested practices.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="artists">
+    <h2>Artists</h2>
+    <p>
+      Say So Sound works with a select roster of youth artists.
+      Roster announcements and releases coming soon.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>
+      Business inquiries, partnerships, and submissions can be directed to:
+    </p>
+    <p>
+      <strong>Email:</strong> info@saysosound.com  
+      <br />
+      <strong>Label:</strong> Say So Sound  
+      <br />
+      <strong>Parent Company:</strong> Say So Entertainment, LLC
+    </p>
+  </section>
+
+  <footer>
+    © Say So Sound. A division of Say So Entertainment, LLC.
+  </footer>
+
+</body>
+</html>
